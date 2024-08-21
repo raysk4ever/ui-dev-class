@@ -5,7 +5,7 @@ HTML => Structure of the WEBSITE
 
 CSS => Styling of the WEBSITE
 
-1 -> inline Styling
+1 -> inline/internal Styling
 2 -> external Styling
 
 JAVASCRIPT => LOGIC for the WEBSITE
