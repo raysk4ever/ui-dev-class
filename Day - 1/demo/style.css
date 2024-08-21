@@ -1,0 +1,16 @@
+body {
+  background-color: teal;
+  font-family: Arial;
+}
+h1 {
+  color: white;
+}
+input {
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+input[type='button'] {
+  color: white;
+  background-color: black;
+}
