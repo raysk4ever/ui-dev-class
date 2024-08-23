@@ -1,0 +1,19 @@
+/* 
+  
+  1. id selector -> 1st
+  2. class selector -> 2nd
+  3. tag selector -> 3rd
+
+*/
+
+div {
+  background-color: aquamarine;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  margin-left: 20px;
+
+  padding: 10px;
+  padding-left: 20px;
+
+}
