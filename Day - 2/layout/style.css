@@ -6,14 +6,51 @@
 
 */
 
+/* FlexBox - 1 direction
+
+Parent 
+
+direaction: Row Wise (default)
+-> X - axis => justify content => flex-start
+-> Y - axis => align items => strech
+
+direaction: Column wise
+-> X - axis => align items => strech
+-> Y - axis => justify content => flex-start
+
+
+*/
+
+/* 
+  child property (applies only if partent is in flex)
+  flex
+*/
+
+
+body {
+  display: flex;
+  height: 100vh;
+  /* align-items: flex-start; */
+  justify-content: space-between;
+}
+
 div {
-  background-color: aquamarine;
-  width: 100px;
-  height: 100px;
+  background-color: black;
+  color: white;
   margin: 10px;
-  margin-left: 20px;
-
   padding: 10px;
-  padding-left: 20px;
 
+}
+
+/* 1:1:0:2:0 */
+.b-1 {
+  flex: 1;
+}
+
+.b-2 {
+  flex: 1;
+}
+
+.b-4 {
+  flex: 2;
 }
