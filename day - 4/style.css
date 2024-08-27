@@ -1,0 +1,110 @@
+/*
+  Flexbox
+
+  -> Row dir (default)
+    x-axis => justify-content
+    y-axis => align-items
+
+  -> Col dir
+    y-axis => justify-content
+    x-axis => align-items
+*/
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  /* height: 50px; */
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+}
+
+.header .avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+
+}
+
+.header .search-wrapper {
+  padding: 10px;
+}
+
+.header .search-wrapper input, button {
+  border: none;
+  padding: 10px;
+  outline: none;
+}
+
+.header .search-wrapper button {
+  background-color: white;
+  border-radius: 50%;
+  width: 40px;
+}
+
+
+
+.main {
+  background-color: green;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+}
+
+.side-bar {
+  background-color: yellow;
+  width: 100px;
+}
+
+.content {
+  background-color: white;
+  flex: 1;
+}
+
+.right-side-bar {
+  width: 100px;
+}
+
+.header .logo {
+  font-size: 20px;
+}
+
+.main .content .box-1 {
+  width: 100px;
+  /* height: 100px; */
+  background-color: brown;
+}
+
+/*
+  Flexbox
+
+  -> Row dir (default)
+    x-axis => justify-content => flex-start
+    y-axis => align-items => strech
+
+  -> Col dir
+    y-axis => justify-content
+    x-axis => align-items
+*/
+
+.content div {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+}
+
+.content {
+  display: flex;
+  align-items: stretch;
+  align-items: flex-start;
+  justify-content: space-between;
+}
