@@ -1,0 +1,56 @@
+body, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: pink;
+
+  display: flex;
+  flex-direction: column;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+main header {
+  background-color: rgb(132, 243, 224);
+  display: flex;
+  /* padding: top/bottom left/right */
+  padding: 10px 20px;
+  justify-content: space-between;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  /* margin-left: auto; */
+  list-style: none;
+  gap: 10px;
+}
+
+nav li {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+
+/* for tabelts */
+@media screen and (max-width: 1024px) {
+
+  main {
+    background-color: white !important;
+  }
+
+  header {
+    flex-direction: column;
+    margin-left: unset;
+  }
+  
+}
+
+@

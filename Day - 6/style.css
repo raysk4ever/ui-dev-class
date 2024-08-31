@@ -1,0 +1,66 @@
+div {
+  /* width: 100px;
+  height: 100px; */
+  background-color: black;;
+}
+
+.box-1 {
+  animation: myKeyFrame 3s forwards;
+}
+
+.box-2 {
+  animation: newAnimation 10s forwards;
+}
+
+@keyframes myKeyFrame {
+  from {
+    background-color: black;
+    opacity: 0;
+    width: 100px;
+    /* opacity: ; */
+  }
+  to {
+    /* border-radius: 50%; */
+    background-color: red;
+    opacity: 1;
+    width: 400px;
+  }
+}
+
+@keyframes newAnimation {
+  0% {
+    width: 200px;
+    height: 300px;
+    margin-left: 100px;
+  }
+
+  10% {
+    background-color: red;
+  }
+
+  30% {
+    background-color: green;
+  }
+
+  40% {
+    width: 50px;
+    height: 50px;
+    margin-left: 500px;
+  }
+
+  80% {
+    opacity: .6;
+  }
+
+  90% {
+    opacity: .9;
+    margin-left: 200px;
+  }
+
+  100% {
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+    margin-left: 0px;
+  }
+}
