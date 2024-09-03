@@ -1,0 +1,56 @@
+input {
+  padding: 10px;
+  border: none;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+body {
+  background-color: yellow;
+  font-family: "Courier New", Courier, monospace;
+}
+
+button {
+  background-color: green;
+  background-color: red;
+  padding: 30px;
+  border: none;
+}
+
+.box-1 {
+  background-color: red;
+  width: 100px;
+  height: 200px;
+  background-color: red;
+  padding: 30px;
+  border: none;
+}
+.box-1 .item-1 {
+  background-color: black;
+  width: 80px;
+  height: 100px;
+}
+.box-1 .item-1 p {
+  color: white;
+}
+
+.box-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box-2 .item-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,48 @@
+$color: red;
+$button-color: green;
+
+@import "./color.scss";
+@import "./common.scss";
+@import "./mixin.scss";
+
+
+
+body {
+  background-color: yellow;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+  background-color: $button-color;
+  @include myButton();
+}
+
+.box-1 {
+  background-color: $color;
+  width: 100px;
+  height: 200px;
+
+  @include myButton();
+
+ 
+
+  .item-1 {
+    background-color: black;
+    width: 80px;
+    height: 100px;
+    p {
+      color: white;
+      
+    }
+  }
+}
+
+
+.box-2 {
+  @include flex-center();
+
+  .item-1 {
+    @include flex-center();
+  }
+}
+

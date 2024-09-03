@@ -1,0 +1,11 @@
+@mixin myButton () {
+    background-color: red;
+    padding: 30px;
+    border: none;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
