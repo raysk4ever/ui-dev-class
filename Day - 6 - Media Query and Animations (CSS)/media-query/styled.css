@@ -40,7 +40,8 @@ nav li {
 
 
 /* for tabelts */
-@media screen and (max-width: 1024px) {
+/* 521px - 1024px */
+@media screen and ( max-width: 1024px) and (min-width: 521px) {
 
   main {
     background-color: white !important;
@@ -53,4 +54,16 @@ nav li {
   
 }
 
-@
+/* 0 - 520px */
+@media screen and (max-width: 520px) {
+
+  main {
+    background-color: white !important;
+  }
+
+  header {
+    flex-direction: column;
+    margin-left: unset;
+  }
+  
+}
