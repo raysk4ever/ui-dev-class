@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo Handler</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Todo Add</h1>
+  
+    <input id="todo-title" type="text" placeholder="enter todo name">
+    <select id="todo-type" name="" id="">
+      <option value="low">Low</option>
+      <option value="medium">Medium</option>
+      <option value="high">High</option>
+    </select>
+    <button id="add-todo">Add</button>
+    <div style="display: flex; gap: 10px; margin-top: 10px; margin-bottom: 10px;">
+
+      <div>
+        <span>All: </span>
+        <span id="all">0</span>
+      </div>
+      <div>
+        <span>Pending: </span>
+        <span id="pending">0</span>
+      </div>
+      <div></div>
+        <span>Completed: </span>
+        <span id="completed">0</span>
+      </div>
+    </div>
+  <div id="todo-list">
+
+  </div>
+  
+  <script src="index.js"></script>
+</body>
+</html>

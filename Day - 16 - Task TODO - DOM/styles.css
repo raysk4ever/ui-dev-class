@@ -1,0 +1,17 @@
+.todo-item {
+  display: flex;
+  gap: 10px;
+
+  margin-top: 10px;
+}
+
+.todo-item.low {
+  background-color: teal;
+}
+.todo-item.medium {
+  background-color: yellowgreen;
+}
+.todo-item.high {
+  background-color: darkred;
+  color: white;
+}
